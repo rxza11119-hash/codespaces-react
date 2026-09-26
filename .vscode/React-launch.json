@@ -5,16 +5,15 @@
       "name": "Run application",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspace}",
       "console": "integratedTerminal",
-      "runtimeExecutable": "npm",
+      "runtimeExecutable": ,
       "runtimeArgs": [
         "run-script",
         "start"
       ],
       "skipFiles": [
-        "<node_internals>/**"
+        "<node_internals>/
       ]
     }
   ]
-}
